@@ -1,0 +1,39 @@
+IP: 10.10.133.176
+Overpass3-Hosting -TryHackMe
+
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+22/tcp open  ssh     OpenSSH 8.0 (protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.37 ((centos))
+Service Info: OS: Unix
+
+PORT      STATE         SERVICE      VERSION
+53/udp    filtered      domain
+67/udp    filtered      dhcps
+68/udp    open|filtered dhcpc
+69/udp    filtered      tftp
+123/udp   filtered      ntp
+135/udp   open|filtered msrpc
+137/udp   filtered      netbios-ns
+138/udp   filtered      netbios-dgm
+139/udp   filtered      netbios-ssn
+161/udp   filtered      snmp
+162/udp   open|filtered snmptrap
+445/udp   filtered      microsoft-ds
+500/udp   open|filtered isakmp
+514/udp   filtered      syslog
+520/udp   filtered      route
+631/udp   filtered      ipp
+1434/udp  filtered      ms-sql-m
+1900/udp  filtered      upnp
+4500/udp  filtered      nat-t-ike
+49152/udp filtered      unknown
+
+
+[+] Found http://10.10.213.15:80/backups/ 200 (10.10.213.15)
+[+] Found http://10.10.213.15:80/cgi-bin/ 403 (10.10.213.15)
+[+] Found http://10.10.213.15:80/icons/ 200 (10.10.213.15)
+
+
+
