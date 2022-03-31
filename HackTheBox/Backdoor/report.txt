@@ -1,0 +1,147 @@
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 b4:de:43:38:46:57:db:4c:21:3b:69:f3:db:3c:62:88 (RSA)
+|   256 aa:c9:fc:21:0f:3e:f4:ec:6b:35:70:26:22:53:ef:66 (ECDSA)
+|_  256 d2:8b:e4:ec:07:61:aa:ca:f8:ec:1c:f8:8c:c1:f6:e1 (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Backdoor &#8211; Real-Life
+|_http-generator: WordPress 5.8.1
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Gobuster Dir Scan
+[+] Url:                     http://backdoor.htb/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/03/20 19:35:54 Starting gobuster in directory enumeration mode
+===============================================================
+/.hta                 (Status: 403) [Size: 277]
+/.htaccess            (Status: 403) [Size: 277]
+/.htpasswd            (Status: 403) [Size: 277]
+/index.php            (Status: 301) [Size: 0] [--> http://backdoor.htb/]
+/server-status        (Status: 403) [Size: 277]                         
+/wp-admin             (Status: 301) [Size: 315] [--> http://backdoor.htb/wp-admin/]
+/wp-content           (Status: 301) [Size: 317] [--> http://backdoor.htb/wp-content/]
+/wp-includes          (Status: 301) [Size: 318] [--> http://backdoor.htb/wp-includes/]
+/xmlrpc.php           (Status: 405) [Size: 42]     
+
+Interesting Finding(s):
+
+[+] Headers
+ | Interesting Entry: Server: Apache/2.4.41 (Ubuntu)
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[+] XML-RPC seems to be enabled: http://backdoor.htb/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[+] WordPress readme found: http://backdoor.htb/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[+] Upload directory has listing enabled: http://backdoor.htb/wp-content/uploads/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[+] The external WP-Cron seems to be enabled: http://backdoor.htb/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[+] WordPress version 5.8.1 identified (Insecure, released on 2021-09-09).
+ | Found By: Rss Generator (Passive Detection)
+ |  - http://backdoor.htb/index.php/feed/, <generator>https://wordpress.org/?v=5.8.1</generator>
+ |  - http://backdoor.htb/index.php/comments/feed/, <generator>https://wordpress.org/?v=5.8.1</generator>
+
+[+] WordPress theme in use: twentyseventeen
+ | Location: http://backdoor.htb/wp-content/themes/twentyseventeen/
+ | Last Updated: 2022-01-25T00:00:00.000Z
+ | Readme: http://backdoor.htb/wp-content/themes/twentyseventeen/readme.txt
+ | [!] The version is out of date, the latest version is 2.9
+ | Style URL: http://backdoor.htb/wp-content/themes/twentyseventeen/style.css?ver=20201208
+ | Style Name: Twenty Seventeen
+ | Style URI: https://wordpress.org/themes/twentyseventeen/
+ | Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a fo...
+ | Author: the WordPress team
+ | Author URI: https://wordpress.org/
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ |
+ | Version: 2.8 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - http://backdoor.htb/wp-content/themes/twentyseventeen/style.css?ver=20201208, Match: 'Version: 2.8'
+
+[+] Enumerating All Plugins (via Passive Methods)
+
+[i] No plugins Found.
+
+[+] Enumerating Config Backups (via Passive and Aggressive Methods)
+ Checking Config Backups - Time: 00:00:03 <==============================================================================================> (137 / 137) 100.00% Time: 00:00:03
+
+[i] No Config Backups Found.
+
+[!] No WPScan API Token given, as a result vulnerability data has not been output.
+[!] You can get a free API token with 25 daily requests by registering at https://wpscan.com/register
+
+[+] Finished: Sun Mar 20 19:48:44 2022
+[+] Requests Done: 187
+[+] Cached Requests: 5
+[+] Data Sent: 45.491 KB
+[+] Data Received: 18.578 MB
+[+] Memory used: 222.68 MB
+[+] Elapsed time: 00:00:10
+[i] Plugin(s) Identified:
+
+[+] akismet
+ | Location: http://backdoor.htb/wp-content/plugins/akismet/
+ | Latest Version: 4.2.2
+ | Last Updated: 2022-01-24T16:11:00.000Z
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - http://backdoor.htb/wp-content/plugins/akismet/, status: 403
+ |
+ | [!] 1 vulnerability identified:
+ |
+ | [!] Title: Akismet 2.5.0-3.1.4 - Unauthenticated Stored Cross-Site Scripting (XSS)
+ |     Fixed in: 3.1.5
+ |     References:
+ |      - https://wpscan.com/vulnerability/1a2f3094-5970-4251-9ed0-ec595a0cd26c
+ |      - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9357
+ |      - http://blog.akismet.com/2015/10/13/akismet-3-1-5-wordpress/
+ |      - https://blog.sucuri.net/2015/10/security-advisory-stored-xss-in-akismet-wordpress-plugin.html
+ |
+ | The version could not be determined.
+
+[+] Enumerating Users (via Passive and Aggressive Methods)
+ Brute Forcing Author IDs - Time: 00:00:00 <================================================================================================================> (10 / 10) 100.00% Time: 00:00:00
+
+[i] User(s) Identified:
+
+[+] admin
+ | Found By: Rss Generator (Passive Detection)
+ | Confirmed By:
+ |  Wp Json Api (Aggressive Detection)
+ |   - http://backdoor.htb/index.php/wp-json/wp/v2/users/?per_page=100&page=1
+ |  Author Id Brute Forcing - Author Pattern (Aggressive Detection)
+ |  Login Error Messages (Aggressive Detection)
+
+
+PORT     STATE SERVICE VERSION
+1337/tcp open  waste?
+
+

@@ -1,0 +1,266 @@
+WARNING: Duplicate port number(s) specified.  Are you alert enough to be using Nmap?  Have some coffee or Jolt(tm).
+# Nmap 7.92 scan initiated Fri Mar 18 16:06:07 2022 as: /usr/bin/nmap -sV --script vulners --script-args mincvss=7.0 -p22,80,3000,5000,8000,22,80,3000,5000,8000 --open -oN nmap/CVEs_10.10.11.150.nmap --system-dns --stats-every 3s 10.10.11.150
+Nmap scan report for 10.10.11.150
+Host is up (0.11s latency).
+
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| vulners: 
+|   cpe:/a:openbsd:openssh:8.2p1: 
+|     	C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3	6.8	https://vulners.com/githubexploit/C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3	*EXPLOIT*
+|     	10213DBE-F683-58BB-B6D3-353173626207	6.8	https://vulners.com/githubexploit/10213DBE-F683-58BB-B6D3-353173626207	*EXPLOIT*
+|     	MSF:ILITIES/GENTOO-LINUX-CVE-2021-28041/	4.6	https://vulners.com/metasploit/MSF:ILITIES/GENTOO-LINUX-CVE-2021-28041/	*EXPLOIT*
+|     	MSF:ILITIES/OPENBSD-OPENSSH-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/OPENBSD-OPENSSH-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2020-14145/	*EXPLOIT*
+|_    	MSF:ILITIES/F5-BIG-IP-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/F5-BIG-IP-CVE-2020-14145/	*EXPLOIT*
+80/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+| vulners: 
+|   cpe:/a:apache:http_server:2.4.41: 
+|     	MSF:ILITIES/UBUNTU-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-11984/	*EXPLOIT*
+|     	CVE-2021-44790	7.5	https://vulners.com/cve/CVE-2021-44790
+|     	CVE-2021-39275	7.5	https://vulners.com/cve/CVE-2021-39275
+|     	CVE-2021-26691	7.5	https://vulners.com/cve/CVE-2021-26691
+|     	CVE-2020-11984	7.5	https://vulners.com/cve/CVE-2020-11984
+|     	1337DAY-ID-34882	7.5	https://vulners.com/zdt/1337DAY-ID-34882	*EXPLOIT*
+|     	FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	6.8	https://vulners.com/githubexploit/FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	*EXPLOIT*
+|     	4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	6.8	https://vulners.com/githubexploit/4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	*EXPLOIT*
+|_    	1337DAY-ID-35422	4.3	https://vulners.com/zdt/1337DAY-ID-35422	*EXPLOIT*
+3000/tcp open  ppp?
+| fingerprint-strings: 
+|   GenericLines, Help, RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Content-Type: text/html; charset=UTF-8
+|     Set-Cookie: i_like_gitea=85712c59e86f17ce; Path=/; HttpOnly
+|     Set-Cookie: _csrf=RFlGDNbiwAifsG0qSioYJ39NEBc6MTY0NzU5OTc2MzE0NjcyODY2Ng; Path=/; Expires=Sat, 19 Mar 2022 10:36:03 GMT; HttpOnly; SameSite=Lax
+|     Set-Cookie: macaron_flash=; Path=/; Max-Age=0; HttpOnly
+|     X-Frame-Options: SAMEORIGIN
+|     Date: Fri, 18 Mar 2022 10:36:03 GMT
+|     <!DOCTYPE html>
+|     <html lang="en-US" class="theme-">
+|     <head data-suburl="">
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <meta http-equiv="x-ua-compatible" content="ie=edge">
+|     <title> Catch Repositories </title>
+|     <link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiQ2F0Y2ggUmVwb3NpdG9yaWVzIiwic2hvcnRfbmFtZSI6IkNhdGNoIFJlcG9zaXRvcmllcyIsInN0YXJ0X3VybCI6Imh0dHA6Ly9naXRlYS5jYXRjaC5odGI6MzAwMC8iLCJpY29ucyI6W3sic3JjIjoiaHR0cDovL2dpdGVhLmNhdGNoLmh0Yjoz
+|   HTTPOptions: 
+|     HTTP/1.0 405 Method Not Allowed
+|     Set-Cookie: i_like_gitea=c9a8db0c626ca650; Path=/; HttpOnly
+|     Set-Cookie: _csrf=ceJ2mt1QjN9tjDF4nV8eGxU9Aps6MTY0NzU5OTc2ODYzMzg4NjAzNQ; Path=/; Expires=Sat, 19 Mar 2022 10:36:08 GMT; HttpOnly; SameSite=Lax
+|     Set-Cookie: macaron_flash=; Path=/; Max-Age=0; HttpOnly
+|     X-Frame-Options: SAMEORIGIN
+|     Date: Fri, 18 Mar 2022 10:36:08 GMT
+|_    Content-Length: 0
+5000/tcp open  upnp?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, RTSPRequest, SMBProgNeg, ZendJavaBridge: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|   GetRequest: 
+|     HTTP/1.1 302 Found
+|     X-Frame-Options: SAMEORIGIN
+|     X-Download-Options: noopen
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     Content-Security-Policy: 
+|     X-Content-Security-Policy: 
+|     X-WebKit-CSP: 
+|     X-UA-Compatible: IE=Edge,chrome=1
+|     Location: /login
+|     Vary: Accept, Accept-Encoding
+|     Content-Type: text/plain; charset=utf-8
+|     Content-Length: 28
+|     Set-Cookie: connect.sid=s%3AL6vr37gUlHvmuMPvPMrAVgrthRGbTX7S.HL0wGcswM8lO8db5nFGqnp%2Bfr9kZZdTvw%2BqReFkoDk8; Path=/; HttpOnly
+|     Date: Fri, 18 Mar 2022 10:36:08 GMT
+|     Connection: close
+|     Found. Redirecting to /login
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     X-Frame-Options: SAMEORIGIN
+|     X-Download-Options: noopen
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     Content-Security-Policy: 
+|     X-Content-Security-Policy: 
+|     X-WebKit-CSP: 
+|     X-UA-Compatible: IE=Edge,chrome=1
+|     Allow: GET,HEAD
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 8
+|     ETag: W/"8-ZRAf8oNBS3Bjb/SU2GYZCmbtmXg"
+|     Set-Cookie: connect.sid=s%3A8Op1G7hZhvtDPOa06S3nw-eTuK5BwSHm.zBuTMqgheT4%2Bf65AxP4Y0Ff3fnvLSVoUkYUN6eq%2FR7Y; Path=/; HttpOnly
+|     Vary: Accept-Encoding
+|     Date: Fri, 18 Mar 2022 10:36:08 GMT
+|     Connection: close
+|_    GET,HEAD
+8000/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+| vulners: 
+|   cpe:/a:apache:http_server:2.4.29: 
+|     	CVE-2021-44790	7.5	https://vulners.com/cve/CVE-2021-44790
+|     	CVE-2021-39275	7.5	https://vulners.com/cve/CVE-2021-39275
+|     	CVE-2021-26691	7.5	https://vulners.com/cve/CVE-2021-26691
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2019-0211/	7.2	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2019-0211/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0211/	7.2	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0211/	*EXPLOIT*
+|     	EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB	7.2	https://vulners.com/exploitpack/EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB	*EXPLOIT*
+|     	EDB-ID:46676	7.2	https://vulners.com/exploitdb/EDB-ID:46676	*EXPLOIT*
+|     	CVE-2019-0211	7.2	https://vulners.com/cve/CVE-2019-0211
+|     	1337DAY-ID-32502	7.2	https://vulners.com/zdt/1337DAY-ID-32502	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/SUSE-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/SUSE-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/DEBIAN-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/DEBIAN-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/AMAZON_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/ALPINE-LINUX-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ALPINE-LINUX-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/ALPINE-LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ALPINE-LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	6.8	https://vulners.com/githubexploit/FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	*EXPLOIT*
+|     	4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	6.8	https://vulners.com/githubexploit/4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2019-0217/	6.0	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2019-0217/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0217/	6.0	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0217/	*EXPLOIT*
+|     	1337DAY-ID-33577	5.8	https://vulners.com/zdt/1337DAY-ID-33577	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1333/	5.0	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1333/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1303/	5.0	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1303/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2019-0197/	4.9	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2019-0197/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1302/	4.3	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1302/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1301/	4.3	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1301/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/DEBIAN-CVE-2019-10092/	4.3	https://vulners.com/metasploit/MSF:ILITIES/DEBIAN-CVE-2019-10092/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2019-10092/	4.3	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2019-10092/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	*EXPLOIT*
+|     	4013EC74-B3C1-5D95-938A-54197A58586D	4.3	https://vulners.com/githubexploit/4013EC74-B3C1-5D95-938A-54197A58586D	*EXPLOIT*
+|     	1337DAY-ID-35422	4.3	https://vulners.com/zdt/1337DAY-ID-35422	*EXPLOIT*
+|     	1337DAY-ID-33575	4.3	https://vulners.com/zdt/1337DAY-ID-33575	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2018-1283/	*EXPLOIT*
+|_    	PACKETSTORM:152441	0.0	https://vulners.com/packetstorm/PACKETSTORM:152441	*EXPLOIT*
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port3000-TCP:V=7.92%I=7%D=3/18%Time=6234ADF6%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20t
+SF:ext/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x
+SF:20Request")%r(GetRequest,28DD,"HTTP/1\.0\x20200\x20OK\r\nContent-Type:\
+SF:x20text/html;\x20charset=UTF-8\r\nSet-Cookie:\x20i_like_gitea=85712c59e
+SF:86f17ce;\x20Path=/;\x20HttpOnly\r\nSet-Cookie:\x20_csrf=RFlGDNbiwAifsG0
+SF:qSioYJ39NEBc6MTY0NzU5OTc2MzE0NjcyODY2Ng;\x20Path=/;\x20Expires=Sat,\x20
+SF:19\x20Mar\x202022\x2010:36:03\x20GMT;\x20HttpOnly;\x20SameSite=Lax\r\nS
+SF:et-Cookie:\x20macaron_flash=;\x20Path=/;\x20Max-Age=0;\x20HttpOnly\r\nX
+SF:-Frame-Options:\x20SAMEORIGIN\r\nDate:\x20Fri,\x2018\x20Mar\x202022\x20
+SF:10:36:03\x20GMT\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en-US\"\x20c
+SF:lass=\"theme-\">\n<head\x20data-suburl=\"\">\n\t<meta\x20charset=\"utf-
+SF:8\">\n\t<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20
+SF:initial-scale=1\">\n\t<meta\x20http-equiv=\"x-ua-compatible\"\x20conten
+SF:t=\"ie=edge\">\n\t<title>\x20Catch\x20Repositories\x20</title>\n\t<link
+SF:\x20rel=\"manifest\"\x20href=\"data:application/json;base64,eyJuYW1lIjo
+SF:iQ2F0Y2ggUmVwb3NpdG9yaWVzIiwic2hvcnRfbmFtZSI6IkNhdGNoIFJlcG9zaXRvcmllcy
+SF:IsInN0YXJ0X3VybCI6Imh0dHA6Ly9naXRlYS5jYXRjaC5odGI6MzAwMC8iLCJpY29ucyI6W
+SF:3sic3JjIjoiaHR0cDovL2dpdGVhLmNhdGNoLmh0Yjoz")%r(Help,67,"HTTP/1\.1\x204
+SF:00\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r
+SF:\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(HTTPOptions,17F
+SF:,"HTTP/1\.0\x20405\x20Method\x20Not\x20Allowed\r\nSet-Cookie:\x20i_like
+SF:_gitea=c9a8db0c626ca650;\x20Path=/;\x20HttpOnly\r\nSet-Cookie:\x20_csrf
+SF:=ceJ2mt1QjN9tjDF4nV8eGxU9Aps6MTY0NzU5OTc2ODYzMzg4NjAzNQ;\x20Path=/;\x20
+SF:Expires=Sat,\x2019\x20Mar\x202022\x2010:36:08\x20GMT;\x20HttpOnly;\x20S
+SF:ameSite=Lax\r\nSet-Cookie:\x20macaron_flash=;\x20Path=/;\x20Max-Age=0;\
+SF:x20HttpOnly\r\nX-Frame-Options:\x20SAMEORIGIN\r\nDate:\x20Fri,\x2018\x2
+SF:0Mar\x202022\x2010:36:08\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(RTS
+SF:PRequest,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20tex
+SF:t/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20
+SF:Request");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5000-TCP:V=7.92%I=7%D=3/18%Time=6234ADFC%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,23E,"HTTP/1\.1\x20302\x20Found\r\nX-Frame-Options:\x20SAMEORIG
+SF:IN\r\nX-Download-Options:\x20noopen\r\nX-Content-Type-Options:\x20nosni
+SF:ff\r\nX-XSS-Protection:\x201;\x20mode=block\r\nContent-Security-Policy:
+SF:\x20\r\nX-Content-Security-Policy:\x20\r\nX-WebKit-CSP:\x20\r\nX-UA-Com
+SF:patible:\x20IE=Edge,chrome=1\r\nLocation:\x20/login\r\nVary:\x20Accept,
+SF:\x20Accept-Encoding\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\
+SF:nContent-Length:\x2028\r\nSet-Cookie:\x20connect\.sid=s%3AL6vr37gUlHvmu
+SF:MPvPMrAVgrthRGbTX7S\.HL0wGcswM8lO8db5nFGqnp%2Bfr9kZZdTvw%2BqReFkoDk8;\x
+SF:20Path=/;\x20HttpOnly\r\nDate:\x20Fri,\x2018\x20Mar\x202022\x2010:36:08
+SF:\x20GMT\r\nConnection:\x20close\r\n\r\nFound\.\x20Redirecting\x20to\x20
+SF:/login")%r(RTSPRequest,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnec
+SF:tion:\x20close\r\n\r\n")%r(DNSVersionBindReqTCP,2F,"HTTP/1\.1\x20400\x2
+SF:0Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(SMBProgNeg,2F,"HTTP
+SF:/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(Zend
+SF:JavaBridge,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20clo
+SF:se\r\n\r\n")%r(HTTPOptions,245,"HTTP/1\.1\x20200\x20OK\r\nX-Frame-Optio
+SF:ns:\x20SAMEORIGIN\r\nX-Download-Options:\x20noopen\r\nX-Content-Type-Op
+SF:tions:\x20nosniff\r\nX-XSS-Protection:\x201;\x20mode=block\r\nContent-S
+SF:ecurity-Policy:\x20\r\nX-Content-Security-Policy:\x20\r\nX-WebKit-CSP:\
+SF:x20\r\nX-UA-Compatible:\x20IE=Edge,chrome=1\r\nAllow:\x20GET,HEAD\r\nCo
+SF:ntent-Type:\x20text/html;\x20charset=utf-8\r\nContent-Length:\x208\r\nE
+SF:Tag:\x20W/\"8-ZRAf8oNBS3Bjb/SU2GYZCmbtmXg\"\r\nSet-Cookie:\x20connect\.
+SF:sid=s%3A8Op1G7hZhvtDPOa06S3nw-eTuK5BwSHm\.zBuTMqgheT4%2Bf65AxP4Y0Ff3fnv
+SF:LSVoUkYUN6eq%2FR7Y;\x20Path=/;\x20HttpOnly\r\nVary:\x20Accept-Encoding\
+SF:r\nDate:\x20Fri,\x2018\x20Mar\x202022\x2010:36:08\x20GMT\r\nConnection:
+SF:\x20close\r\n\r\nGET,HEAD")%r(RPCCheck,2F,"HTTP/1\.1\x20400\x20Bad\x20R
+SF:equest\r\nConnection:\x20close\r\n\r\n")%r(DNSStatusRequestTCP,2F,"HTTP
+SF:/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(Help
+SF:,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n
+SF:");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Mar 18 16:07:42 2022 -- 1 IP address (1 host up) scanned in 94.48 seconds

@@ -1,0 +1,14 @@
+POST /profile_update.php HTTP/1.1
+Host: timing.htb
+Content-Length: 55
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
+Content-type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://timing.htb
+Referer: http://timing.htb/profile.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: PHPSESSID=u5o3k98f1q25gr34hi12v863vb
+Connection: close
+
+firstName=admi&lastName=admin&email=admin&company=admin

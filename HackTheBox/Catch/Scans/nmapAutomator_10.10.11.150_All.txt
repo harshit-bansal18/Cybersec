@@ -1,0 +1,1407 @@
+
+[0;33mRunning all scans on [0m10.10.11.150
+[0m
+[0;32mHost is likely running Linux
+
+
+[0;32m---------------------Starting Port Scan-----------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:01 elapsed - 0:00:01 remaining)   
+[################################################>                                                    ] 48% done   
+[2AIn progress: SYN Stealth Scan (0:00:01 elapsed - 0:00:01 remaining)   
+[################################################>                                                    ] 48% done   
+[2A[0K
+[0K
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3000/tcp open  ppp
+5000/tcp open  upnp
+8000/tcp open  http-alt
+
+
+
+[0;32m---------------------Starting Script Scan-----------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Service Scan (0:00:07 elapsed - 0:00:11 remaining)   
+[########################################>                                                            ] 40% done   
+[2AIn progress: Service Scan (0:00:07 elapsed - 0:00:11 remaining)   
+[########################################>                                                            ] 40% done   
+[2AIn progress: Service Scan (0:00:07 elapsed - 0:00:11 remaining)   
+[########################################>                                                            ] 40% done   
+[2AIn progress: Service Scan (0:00:12 elapsed - 0:00:18 remaining)   
+[########################################>                                                            ] 40% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:00:09 remaining)   
+[############################################################>                                        ] 60% done   
+[2AIn progress: Service Scan (0:00:16 elapsed - 0:00:11 remaining)   
+[############################################################>                                        ] 60% done   
+[2AIn progress: Service Scan (0:00:16 elapsed - 0:00:11 remaining)   
+[############################################################>                                        ] 60% done   
+[2AIn progress: Service Scan (0:00:16 elapsed - 0:00:11 remaining)   
+[############################################################>                                        ] 60% done   
+[2AIn progress: Service Scan (0:00:23 elapsed - 0:00:06 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:23 elapsed - 0:00:06 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:23 elapsed - 0:00:06 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:28 elapsed - 0:00:07 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:28 elapsed - 0:00:07 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:34 elapsed - 0:00:08 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:34 elapsed - 0:00:08 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:34 elapsed - 0:00:08 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:39 elapsed - 0:00:10 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:39 elapsed - 0:00:10 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:39 elapsed - 0:00:10 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:45 elapsed - 0:00:11 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:45 elapsed - 0:00:11 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:50 elapsed - 0:00:13 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:50 elapsed - 0:00:13 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:50 elapsed - 0:00:13 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:55 elapsed - 0:00:14 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:55 elapsed - 0:00:14 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:00 elapsed - 0:00:15 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:00 elapsed - 0:00:15 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:00 elapsed - 0:00:15 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:05 elapsed - 0:00:16 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:05 elapsed - 0:00:16 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:05 elapsed - 0:00:16 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:10 elapsed - 0:00:18 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:10 elapsed - 0:00:18 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:15 elapsed - 0:00:19 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:15 elapsed - 0:00:19 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:15 elapsed - 0:00:19 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:21 elapsed - 0:00:20 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:21 elapsed - 0:00:20 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:26 elapsed - 0:00:21 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:26 elapsed - 0:00:21 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:26 elapsed - 0:00:21 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Script Scan (0:01:31 elapsed - 0:00:00 remaining)   
+[################################################################################################>    ] 96% done   
+[2AIn progress: Script Scan (0:01:33 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2A[0K
+[0K
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 48:ad:d5:b8:3a:9f:bc:be:f7:e8:20:1e:f6:bf:de:ae (RSA)
+|   256 b7:89:6c:0b:20:ed:49:b2:c1:86:7c:29:92:74:1c:1f (ECDSA)
+|_  256 18:cd:9d:08:a6:21:a8:b8:b6:f7:9f:8d:40:51:54:fb (ED25519)
+80/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: Catch Global Systems
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+3000/tcp open  ppp?
+| fingerprint-strings: 
+|   GenericLines, Help, RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Content-Type: text/html; charset=UTF-8
+|     Set-Cookie: i_like_gitea=f2114ffca882a1e3; Path=/; HttpOnly
+|     Set-Cookie: _csrf=v55GrH30_NTtzQ3ZnMXbPMDS3ZM6MTY0NzU5OTUwNzE4MTUyNzU0NA; Path=/; Expires=Sat, 19 Mar 2022 10:31:47 GMT; HttpOnly; SameSite=Lax
+|     Set-Cookie: macaron_flash=; Path=/; Max-Age=0; HttpOnly
+|     X-Frame-Options: SAMEORIGIN
+|     Date: Fri, 18 Mar 2022 10:31:47 GMT
+|     <!DOCTYPE html>
+|     <html lang="en-US" class="theme-">
+|     <head data-suburl="">
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <meta http-equiv="x-ua-compatible" content="ie=edge">
+|     <title> Catch Repositories </title>
+|     <link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiQ2F0Y2ggUmVwb3NpdG9yaWVzIiwic2hvcnRfbmFtZSI6IkNhdGNoIFJlcG9zaXRvcmllcyIsInN0YXJ0X3VybCI6Imh0dHA6Ly9naXRlYS5jYXRjaC5odGI6MzAwMC8iLCJpY29ucyI6W3sic3JjIjoiaHR0cDovL2dpdGVhLmNhdGNoLmh0Yjoz
+|   HTTPOptions: 
+|     HTTP/1.0 405 Method Not Allowed
+|     Set-Cookie: i_like_gitea=7ce1a474ad2aef10; Path=/; HttpOnly
+|     Set-Cookie: _csrf=tk8pdJTvq9wDujFmCUatfUqeCUs6MTY0NzU5OTUxMjYyMDY1MzE4OA; Path=/; Expires=Sat, 19 Mar 2022 10:31:52 GMT; HttpOnly; SameSite=Lax
+|     Set-Cookie: macaron_flash=; Path=/; Max-Age=0; HttpOnly
+|     X-Frame-Options: SAMEORIGIN
+|     Date: Fri, 18 Mar 2022 10:31:52 GMT
+|_    Content-Length: 0
+5000/tcp open  upnp?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, RTSPRequest, SMBProgNeg, ZendJavaBridge: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|   GetRequest: 
+|     HTTP/1.1 302 Found
+|     X-Frame-Options: SAMEORIGIN
+|     X-Download-Options: noopen
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     Content-Security-Policy: 
+|     X-Content-Security-Policy: 
+|     X-WebKit-CSP: 
+|     X-UA-Compatible: IE=Edge,chrome=1
+|     Location: /login
+|     Vary: Accept, Accept-Encoding
+|     Content-Type: text/plain; charset=utf-8
+|     Content-Length: 28
+|     Set-Cookie: connect.sid=s%3AQZIJ4yp8qwVuXwDZBS5SH8-J_1XqUOYO.Obg9Odq3TwgN2i92z4gji%2BToNfZw%2BIXwL%2FQ76U3N2lw; Path=/; HttpOnly
+|     Date: Fri, 18 Mar 2022 10:31:52 GMT
+|     Connection: close
+|     Found. Redirecting to /login
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     X-Frame-Options: SAMEORIGIN
+|     X-Download-Options: noopen
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     Content-Security-Policy: 
+|     X-Content-Security-Policy: 
+|     X-WebKit-CSP: 
+|     X-UA-Compatible: IE=Edge,chrome=1
+|     Allow: GET,HEAD
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 8
+|     ETag: W/"8-ZRAf8oNBS3Bjb/SU2GYZCmbtmXg"
+|     Set-Cookie: connect.sid=s%3ArmsQ6kU6Kny3c42WuVz8KeIpiRtv-FH0.Yf%2FNoskK%2Fiz5fH56r5UFvKJaNYBjMfj1u3s2y0hRVt4; Path=/; HttpOnly
+|     Vary: Accept-Encoding
+|     Date: Fri, 18 Mar 2022 10:31:52 GMT
+|     Connection: close
+|_    GET,HEAD
+8000/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-title: Catch Global Systems
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+
+
+
+[0;32m---------------------Starting Full Scan------------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:03 elapsed - 0:02:09 remaining)   
+[#>                                                                                                   ] 1% done   
+[2AIn progress: SYN Stealth Scan (0:00:06 elapsed - 0:01:49 remaining)   
+[####>                                                                                                ] 4% done   
+[2AIn progress: SYN Stealth Scan (0:00:09 elapsed - 0:01:52 remaining)   
+[######>                                                                                              ] 6% done   
+[2AIn progress: SYN Stealth Scan (0:00:12 elapsed - 0:01:52 remaining)   
+[########>                                                                                            ] 8% done   
+[2AIn progress: SYN Stealth Scan (0:00:15 elapsed - 0:01:51 remaining)   
+[###########>                                                                                         ] 11% done   
+[2AIn progress: SYN Stealth Scan (0:00:18 elapsed - 0:01:49 remaining)   
+[#############>                                                                                       ] 13% done   
+[2AIn progress: SYN Stealth Scan (0:00:21 elapsed - 0:01:47 remaining)   
+[###############>                                                                                     ] 15% done   
+[2AIn progress: SYN Stealth Scan (0:00:24 elapsed - 0:01:44 remaining)   
+[##################>                                                                                  ] 18% done   
+[2AIn progress: SYN Stealth Scan (0:00:27 elapsed - 0:01:42 remaining)   
+[####################>                                                                                ] 20% done   
+[2AIn progress: SYN Stealth Scan (0:00:30 elapsed - 0:01:39 remaining)   
+[######################>                                                                              ] 22% done   
+[2AIn progress: SYN Stealth Scan (0:00:33 elapsed - 0:01:37 remaining)   
+[########################>                                                                            ] 24% done   
+[2AIn progress: SYN Stealth Scan (0:00:36 elapsed - 0:01:34 remaining)   
+[###########################>                                                                         ] 27% done   
+[2AIn progress: SYN Stealth Scan (0:00:39 elapsed - 0:01:31 remaining)   
+[#############################>                                                                       ] 29% done   
+[2AIn progress: SYN Stealth Scan (0:00:42 elapsed - 0:01:28 remaining)   
+[###############################>                                                                     ] 31% done   
+[2AIn progress: SYN Stealth Scan (0:00:45 elapsed - 0:01:25 remaining)   
+[##################################>                                                                  ] 34% done   
+[2AIn progress: SYN Stealth Scan (0:00:48 elapsed - 0:01:22 remaining)   
+[####################################>                                                                ] 36% done   
+[2AIn progress: SYN Stealth Scan (0:00:51 elapsed - 0:01:20 remaining)   
+[######################################>                                                              ] 38% done   
+[2AIn progress: SYN Stealth Scan (0:00:54 elapsed - 0:01:17 remaining)   
+[########################################>                                                            ] 40% done   
+[2AIn progress: SYN Stealth Scan (0:00:57 elapsed - 0:01:14 remaining)   
+[###########################################>                                                         ] 43% done   
+[2AIn progress: SYN Stealth Scan (0:01:03 elapsed - 0:01:14 remaining)   
+[#############################################>                                                       ] 45% done   
+[2AIn progress: SYN Stealth Scan (0:01:06 elapsed - 0:01:05 remaining)   
+[#################################################>                                                   ] 49% done   
+[2AIn progress: SYN Stealth Scan (0:01:09 elapsed - 0:01:02 remaining)   
+[####################################################>                                                ] 52% done   
+[2AIn progress: SYN Stealth Scan (0:01:12 elapsed - 0:00:59 remaining)   
+[######################################################>                                              ] 54% done   
+[2AIn progress: SYN Stealth Scan (0:01:15 elapsed - 0:00:56 remaining)   
+[########################################################>                                            ] 56% done   
+[2AIn progress: SYN Stealth Scan (0:01:18 elapsed - 0:00:53 remaining)   
+[###########################################################>                                         ] 59% done   
+[2AIn progress: SYN Stealth Scan (0:01:21 elapsed - 0:00:50 remaining)   
+[#############################################################>                                       ] 61% done   
+[2AIn progress: SYN Stealth Scan (0:01:24 elapsed - 0:00:47 remaining)   
+[###############################################################>                                     ] 63% done   
+[2AIn progress: SYN Stealth Scan (0:01:27 elapsed - 0:00:44 remaining)   
+[#################################################################>                                   ] 65% done   
+[2AIn progress: SYN Stealth Scan (0:01:30 elapsed - 0:00:41 remaining)   
+[####################################################################>                                ] 68% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:40 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: SYN Stealth Scan (0:01:36 elapsed - 0:00:36 remaining)   
+[########################################################################>                            ] 72% done   
+[2AIn progress: SYN Stealth Scan (0:01:39 elapsed - 0:00:33 remaining)   
+[##########################################################################>                          ] 74% done   
+[2AIn progress: SYN Stealth Scan (0:01:42 elapsed - 0:00:30 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: SYN Stealth Scan (0:01:45 elapsed - 0:00:27 remaining)   
+[###############################################################################>                     ] 79% done   
+[2AIn progress: SYN Stealth Scan (0:01:48 elapsed - 0:00:24 remaining)   
+[#################################################################################>                   ] 81% done   
+[2AIn progress: SYN Stealth Scan (0:01:51 elapsed - 0:00:21 remaining)   
+[###################################################################################>                 ] 83% done   
+[2AIn progress: SYN Stealth Scan (0:01:54 elapsed - 0:00:18 remaining)   
+[######################################################################################>              ] 86% done   
+[2AIn progress: SYN Stealth Scan (0:01:57 elapsed - 0:00:15 remaining)   
+[########################################################################################>            ] 88% done   
+[2AIn progress: SYN Stealth Scan (0:02:00 elapsed - 0:00:12 remaining)   
+[##########################################################################################>          ] 90% done   
+[2AIn progress: SYN Stealth Scan (0:02:03 elapsed - 0:00:09 remaining)   
+[############################################################################################>        ] 92% done   
+[2AIn progress: SYN Stealth Scan (0:02:06 elapsed - 0:00:06 remaining)   
+[###############################################################################################>     ] 95% done   
+[2AIn progress: SYN Stealth Scan (0:02:09 elapsed - 0:00:03 remaining)   
+[#################################################################################################>   ] 97% done   
+[2A[0K
+[0K
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3000/tcp open  ppp
+5000/tcp open  upnp
+8000/tcp open  http-alt
+
+
+
+[0;33mNo new ports
+[0m
+
+
+
+[0;32m----------------------Starting UDP Scan------------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: UDP Scan (0:00:03 elapsed - 0:00:51 remaining)   
+[###>                                                                                                 ] 3% done   
+[2AIn progress: UDP Scan (0:00:09 elapsed - 0:00:25 remaining)   
+[########################>                                                                            ] 24% done   
+[2AIn progress: UDP Scan (0:00:12 elapsed - 0:00:20 remaining)   
+[####################################>                                                                ] 36% done   
+[2AIn progress: UDP Scan (0:00:15 elapsed - 0:00:15 remaining)   
+[################################################>                                                    ] 48% done   
+[2AIn progress: UDP Scan (0:00:18 elapsed - 0:00:09 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: UDP Scan (0:00:21 elapsed - 0:00:04 remaining)   
+[##################################################################################>                  ] 82% done   
+[2A[0K
+[0K
+
+
+[0;33mNo UDP ports are open
+[0m
+
+
+
+[0;32m---------------------Starting Vulns Scan-----------------------
+[0m
+[0;33mRunning CVE scan on all ports
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Service Scan (0:00:07 elapsed - 0:00:11 remaining)   
+[########################################>                                                            ] 40% done   
+[2AIn progress: Service Scan (0:00:12 elapsed - 0:00:17 remaining)   
+[########################################>                                                            ] 40% done   
+[2AIn progress: Service Scan (0:00:13 elapsed - 0:00:09 remaining)   
+[############################################################>                                        ] 60% done   
+[2AIn progress: Service Scan (0:00:16 elapsed - 0:00:11 remaining)   
+[############################################################>                                        ] 60% done   
+[2AIn progress: Service Scan (0:00:16 elapsed - 0:00:11 remaining)   
+[############################################################>                                        ] 60% done   
+[2AIn progress: Service Scan (0:00:23 elapsed - 0:00:06 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:23 elapsed - 0:00:06 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:28 elapsed - 0:00:07 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:28 elapsed - 0:00:07 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:34 elapsed - 0:00:08 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:39 elapsed - 0:00:10 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:39 elapsed - 0:00:10 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:44 elapsed - 0:00:11 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:44 elapsed - 0:00:11 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:50 elapsed - 0:00:13 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:50 elapsed - 0:00:13 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:55 elapsed - 0:00:14 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:00 elapsed - 0:00:15 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:00 elapsed - 0:00:15 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:05 elapsed - 0:00:16 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:05 elapsed - 0:00:16 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:10 elapsed - 0:00:18 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:10 elapsed - 0:00:18 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:15 elapsed - 0:00:19 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:20 elapsed - 0:00:20 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:20 elapsed - 0:00:20 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:25 elapsed - 0:00:21 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:25 elapsed - 0:00:21 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Script Scan (0:01:31 elapsed - 0:00:00 remaining)   
+[###############################################################################################>     ] 95% done   
+[2A[0K
+[0K
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| vulners: 
+|   cpe:/a:openbsd:openssh:8.2p1: 
+|     	C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3	6.8	https://vulners.com/githubexploit/C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3	*EXPLOIT*
+|     	10213DBE-F683-58BB-B6D3-353173626207	6.8	https://vulners.com/githubexploit/10213DBE-F683-58BB-B6D3-353173626207	*EXPLOIT*
+|     	MSF:ILITIES/GENTOO-LINUX-CVE-2021-28041/	4.6	https://vulners.com/metasploit/MSF:ILITIES/GENTOO-LINUX-CVE-2021-28041/	*EXPLOIT*
+|     	MSF:ILITIES/OPENBSD-OPENSSH-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/OPENBSD-OPENSSH-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2020-14145/	*EXPLOIT*
+|_    	MSF:ILITIES/F5-BIG-IP-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/F5-BIG-IP-CVE-2020-14145/	*EXPLOIT*
+80/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+| vulners: 
+|   cpe:/a:apache:http_server:2.4.41: 
+|     	MSF:ILITIES/UBUNTU-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-11984/	*EXPLOIT*
+|     	CVE-2021-44790	7.5	https://vulners.com/cve/CVE-2021-44790
+|     	CVE-2021-39275	7.5	https://vulners.com/cve/CVE-2021-39275
+|     	CVE-2021-26691	7.5	https://vulners.com/cve/CVE-2021-26691
+|     	CVE-2020-11984	7.5	https://vulners.com/cve/CVE-2020-11984
+|     	1337DAY-ID-34882	7.5	https://vulners.com/zdt/1337DAY-ID-34882	*EXPLOIT*
+|     	FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	6.8	https://vulners.com/githubexploit/FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	*EXPLOIT*
+|     	4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	6.8	https://vulners.com/githubexploit/4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	*EXPLOIT*
+|_    	1337DAY-ID-35422	4.3	https://vulners.com/zdt/1337DAY-ID-35422	*EXPLOIT*
+3000/tcp open  ppp?
+| fingerprint-strings: 
+|   GenericLines, Help, RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Content-Type: text/html; charset=UTF-8
+|     Set-Cookie: i_like_gitea=85712c59e86f17ce; Path=/; HttpOnly
+|     Set-Cookie: _csrf=RFlGDNbiwAifsG0qSioYJ39NEBc6MTY0NzU5OTc2MzE0NjcyODY2Ng; Path=/; Expires=Sat, 19 Mar 2022 10:36:03 GMT; HttpOnly; SameSite=Lax
+|     Set-Cookie: macaron_flash=; Path=/; Max-Age=0; HttpOnly
+|     X-Frame-Options: SAMEORIGIN
+|     Date: Fri, 18 Mar 2022 10:36:03 GMT
+|     <!DOCTYPE html>
+|     <html lang="en-US" class="theme-">
+|     <head data-suburl="">
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <meta http-equiv="x-ua-compatible" content="ie=edge">
+|     <title> Catch Repositories </title>
+|     <link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiQ2F0Y2ggUmVwb3NpdG9yaWVzIiwic2hvcnRfbmFtZSI6IkNhdGNoIFJlcG9zaXRvcmllcyIsInN0YXJ0X3VybCI6Imh0dHA6Ly9naXRlYS5jYXRjaC5odGI6MzAwMC8iLCJpY29ucyI6W3sic3JjIjoiaHR0cDovL2dpdGVhLmNhdGNoLmh0Yjoz
+|   HTTPOptions: 
+|     HTTP/1.0 405 Method Not Allowed
+|     Set-Cookie: i_like_gitea=c9a8db0c626ca650; Path=/; HttpOnly
+|     Set-Cookie: _csrf=ceJ2mt1QjN9tjDF4nV8eGxU9Aps6MTY0NzU5OTc2ODYzMzg4NjAzNQ; Path=/; Expires=Sat, 19 Mar 2022 10:36:08 GMT; HttpOnly; SameSite=Lax
+|     Set-Cookie: macaron_flash=; Path=/; Max-Age=0; HttpOnly
+|     X-Frame-Options: SAMEORIGIN
+|     Date: Fri, 18 Mar 2022 10:36:08 GMT
+|_    Content-Length: 0
+5000/tcp open  upnp?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, RTSPRequest, SMBProgNeg, ZendJavaBridge: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|   GetRequest: 
+|     HTTP/1.1 302 Found
+|     X-Frame-Options: SAMEORIGIN
+|     X-Download-Options: noopen
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     Content-Security-Policy: 
+|     X-Content-Security-Policy: 
+|     X-WebKit-CSP: 
+|     X-UA-Compatible: IE=Edge,chrome=1
+|     Location: /login
+|     Vary: Accept, Accept-Encoding
+|     Content-Type: text/plain; charset=utf-8
+|     Content-Length: 28
+|     Set-Cookie: connect.sid=s%3AL6vr37gUlHvmuMPvPMrAVgrthRGbTX7S.HL0wGcswM8lO8db5nFGqnp%2Bfr9kZZdTvw%2BqReFkoDk8; Path=/; HttpOnly
+|     Date: Fri, 18 Mar 2022 10:36:08 GMT
+|     Connection: close
+|     Found. Redirecting to /login
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     X-Frame-Options: SAMEORIGIN
+|     X-Download-Options: noopen
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     Content-Security-Policy: 
+|     X-Content-Security-Policy: 
+|     X-WebKit-CSP: 
+|     X-UA-Compatible: IE=Edge,chrome=1
+|     Allow: GET,HEAD
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 8
+|     ETag: W/"8-ZRAf8oNBS3Bjb/SU2GYZCmbtmXg"
+|     Set-Cookie: connect.sid=s%3A8Op1G7hZhvtDPOa06S3nw-eTuK5BwSHm.zBuTMqgheT4%2Bf65AxP4Y0Ff3fnvLSVoUkYUN6eq%2FR7Y; Path=/; HttpOnly
+|     Vary: Accept-Encoding
+|     Date: Fri, 18 Mar 2022 10:36:08 GMT
+|     Connection: close
+|_    GET,HEAD
+8000/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+| vulners: 
+|   cpe:/a:apache:http_server:2.4.29: 
+|     	CVE-2021-44790	7.5	https://vulners.com/cve/CVE-2021-44790
+|     	CVE-2021-39275	7.5	https://vulners.com/cve/CVE-2021-39275
+|     	CVE-2021-26691	7.5	https://vulners.com/cve/CVE-2021-26691
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2019-0211/	7.2	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2019-0211/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0211/	7.2	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0211/	*EXPLOIT*
+|     	EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB	7.2	https://vulners.com/exploitpack/EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB	*EXPLOIT*
+|     	EDB-ID:46676	7.2	https://vulners.com/exploitdb/EDB-ID:46676	*EXPLOIT*
+|     	CVE-2019-0211	7.2	https://vulners.com/cve/CVE-2019-0211
+|     	1337DAY-ID-32502	7.2	https://vulners.com/zdt/1337DAY-ID-32502	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/SUSE-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/SUSE-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/DEBIAN-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/DEBIAN-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/AMAZON_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/ALPINE-LINUX-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ALPINE-LINUX-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/ALPINE-LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ALPINE-LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	6.8	https://vulners.com/githubexploit/FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	*EXPLOIT*
+|     	4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	6.8	https://vulners.com/githubexploit/4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2019-0217/	6.0	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2019-0217/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0217/	6.0	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0217/	*EXPLOIT*
+|     	1337DAY-ID-33577	5.8	https://vulners.com/zdt/1337DAY-ID-33577	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1333/	5.0	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1333/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1303/	5.0	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1303/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2019-0197/	4.9	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2019-0197/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1302/	4.3	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1302/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1301/	4.3	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1301/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/DEBIAN-CVE-2019-10092/	4.3	https://vulners.com/metasploit/MSF:ILITIES/DEBIAN-CVE-2019-10092/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2019-10092/	4.3	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2019-10092/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	*EXPLOIT*
+|     	4013EC74-B3C1-5D95-938A-54197A58586D	4.3	https://vulners.com/githubexploit/4013EC74-B3C1-5D95-938A-54197A58586D	*EXPLOIT*
+|     	1337DAY-ID-35422	4.3	https://vulners.com/zdt/1337DAY-ID-35422	*EXPLOIT*
+|     	1337DAY-ID-33575	4.3	https://vulners.com/zdt/1337DAY-ID-33575	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2018-1283/	*EXPLOIT*
+|_    	PACKETSTORM:152441	0.0	https://vulners.com/packetstorm/PACKETSTORM:152441	*EXPLOIT*
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+
+
+[0;33mRunning Vuln scan on all ports
+[0;33mThis may take a while, depending on the number of detected services..
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:03 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:06 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:09 elapsed - 0:00:08 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: No Scan (0:00:12 elapsed - 0:00:11 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: No Scan (0:00:15 elapsed - 0:00:14 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: No Scan (0:00:18 elapsed - 0:00:17 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: No Scan (0:00:21 elapsed - 0:00:20 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: No Scan (0:00:24 elapsed - 0:00:23 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: No Scan (0:00:27 elapsed - 0:00:26 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: No Scan (0:00:30 elapsed - 0:00:29 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: No Scan (0:00:33 elapsed - 0:01:04 remaining)   
+[#################################>                                                                   ] 33% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Service Scan (0:00:41 elapsed - 0:00:11 remaining)   
+[########################################>                                                            ] 40% done   
+[2AIn progress: Service Scan (0:00:41 elapsed - 0:00:11 remaining)   
+[########################################>                                                            ] 40% done   
+[2AIn progress: Service Scan (0:00:47 elapsed - 0:00:09 remaining)   
+[############################################################>                                        ] 60% done   
+[2AIn progress: Service Scan (0:00:50 elapsed - 0:00:11 remaining)   
+[############################################################>                                        ] 60% done   
+[2AIn progress: Service Scan (0:00:50 elapsed - 0:00:11 remaining)   
+[############################################################>                                        ] 60% done   
+[2AIn progress: Service Scan (0:00:57 elapsed - 0:00:06 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:00:57 elapsed - 0:00:06 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:02 elapsed - 0:00:07 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:02 elapsed - 0:00:07 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:08 elapsed - 0:00:08 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:08 elapsed - 0:00:08 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:13 elapsed - 0:00:10 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:13 elapsed - 0:00:10 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:19 elapsed - 0:00:11 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:24 elapsed - 0:00:13 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:24 elapsed - 0:00:13 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:29 elapsed - 0:00:14 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:29 elapsed - 0:00:14 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:34 elapsed - 0:00:15 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:39 elapsed - 0:00:16 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:39 elapsed - 0:00:16 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:44 elapsed - 0:00:18 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:44 elapsed - 0:00:18 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:49 elapsed - 0:00:19 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:55 elapsed - 0:00:20 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:01:55 elapsed - 0:00:20 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:02:00 elapsed - 0:00:21 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Service Scan (0:02:00 elapsed - 0:00:21 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Script Scan (0:02:05 elapsed - 0:00:00 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: Script Scan (0:02:08 elapsed - 0:00:00 remaining)   
+[##############################################################################################>      ] 94% done   
+[2AIn progress: Script Scan (0:02:11 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2AIn progress: Script Scan (0:02:14 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2AIn progress: Script Scan (0:02:17 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2AIn progress: Script Scan (0:02:20 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2AIn progress: Script Scan (0:02:23 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2AIn progress: Script Scan (0:02:26 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:29 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:32 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:35 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:38 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:41 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:44 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:47 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:50 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:53 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:56 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:59 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:02 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:05 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:08 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:11 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:14 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:17 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:20 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:23 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:26 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:29 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:32 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:35 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:38 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:41 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:44 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:47 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:50 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:56 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:59 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:02 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:05 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:08 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:11 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:14 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:17 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:20 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:23 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:26 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:29 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:32 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:35 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:38 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:41 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:44 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:47 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:50 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:53 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:56 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:59 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:02 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:05 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:08 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:11 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:14 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:17 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:20 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:23 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:26 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:29 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:32 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:35 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:38 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:41 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:44 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:47 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:50 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:53 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:56 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:59 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:02 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:05 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:08 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:11 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:14 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:17 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:20 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:23 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:26 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:29 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:32 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:35 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:38 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:41 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:44 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:47 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:50 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:53 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:56 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:02 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:05 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:08 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:11 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:14 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:17 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:20 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:23 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:26 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:29 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:32 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:35 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:38 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:41 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:44 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:47 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:50 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:53 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:56 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:59 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:02 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:05 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:08 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:11 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:14 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:17 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:20 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:23 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:26 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:29 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:32 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:35 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:38 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:41 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:44 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:47 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:50 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:53 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:56 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:59 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:02 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:05 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:08 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:11 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2A[0K
+[0K
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| vulners: 
+|   cpe:/a:openbsd:openssh:8.2p1: 
+|     	CVE-2020-15778	6.8	https://vulners.com/cve/CVE-2020-15778
+|     	C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3	6.8	https://vulners.com/githubexploit/C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3	*EXPLOIT*
+|     	10213DBE-F683-58BB-B6D3-353173626207	6.8	https://vulners.com/githubexploit/10213DBE-F683-58BB-B6D3-353173626207	*EXPLOIT*
+|     	CVE-2020-12062	5.0	https://vulners.com/cve/CVE-2020-12062
+|     	MSF:ILITIES/GENTOO-LINUX-CVE-2021-28041/	4.6	https://vulners.com/metasploit/MSF:ILITIES/GENTOO-LINUX-CVE-2021-28041/	*EXPLOIT*
+|     	CVE-2021-28041	4.6	https://vulners.com/cve/CVE-2021-28041
+|     	CVE-2021-41617	4.4	https://vulners.com/cve/CVE-2021-41617
+|     	MSF:ILITIES/OPENBSD-OPENSSH-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/OPENBSD-OPENSSH-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/F5-BIG-IP-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/F5-BIG-IP-CVE-2020-14145/	*EXPLOIT*
+|     	CVE-2020-14145	4.3	https://vulners.com/cve/CVE-2020-14145
+|_    	CVE-2016-20012	4.3	https://vulners.com/cve/CVE-2016-20012
+80/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-csrf: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=10.10.11.150
+|   Found the following possible CSRF vulnerabilities: 
+|     
+|     Path: http://10.10.11.150:80/
+|     Form id: 
+|_    Form action: catchv1.0.apk
+| vulners: 
+|   cpe:/a:apache:http_server:2.4.41: 
+|     	MSF:ILITIES/UBUNTU-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2020-11984/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-11984/	7.5	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-11984/	*EXPLOIT*
+|     	CVE-2021-44790	7.5	https://vulners.com/cve/CVE-2021-44790
+|     	CVE-2021-39275	7.5	https://vulners.com/cve/CVE-2021-39275
+|     	CVE-2021-26691	7.5	https://vulners.com/cve/CVE-2021-26691
+|     	CVE-2020-11984	7.5	https://vulners.com/cve/CVE-2020-11984
+|     	1337DAY-ID-34882	7.5	https://vulners.com/zdt/1337DAY-ID-34882	*EXPLOIT*
+|     	FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	6.8	https://vulners.com/githubexploit/FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	*EXPLOIT*
+|     	CVE-2021-40438	6.8	https://vulners.com/cve/CVE-2021-40438
+|     	CVE-2020-35452	6.8	https://vulners.com/cve/CVE-2020-35452
+|     	4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	6.8	https://vulners.com/githubexploit/4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	*EXPLOIT*
+|     	CVE-2021-44224	6.4	https://vulners.com/cve/CVE-2021-44224
+|     	CVE-2020-1927	5.8	https://vulners.com/cve/CVE-2020-1927
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	*EXPLOIT*
+|     	CVE-2021-36160	5.0	https://vulners.com/cve/CVE-2021-36160
+|     	CVE-2021-34798	5.0	https://vulners.com/cve/CVE-2021-34798
+|     	CVE-2021-33193	5.0	https://vulners.com/cve/CVE-2021-33193
+|     	CVE-2021-30641	5.0	https://vulners.com/cve/CVE-2021-30641
+|     	CVE-2021-26690	5.0	https://vulners.com/cve/CVE-2021-26690
+|     	CVE-2020-9490	5.0	https://vulners.com/cve/CVE-2020-9490
+|     	CVE-2020-1934	5.0	https://vulners.com/cve/CVE-2020-1934
+|     	CVE-2020-13950	5.0	https://vulners.com/cve/CVE-2020-13950
+|     	CVE-2019-17567	5.0	https://vulners.com/cve/CVE-2019-17567
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	*EXPLOIT*
+|     	CVE-2020-11993	4.3	https://vulners.com/cve/CVE-2020-11993
+|_    	1337DAY-ID-35422	4.3	https://vulners.com/zdt/1337DAY-ID-35422	*EXPLOIT*
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-vuln-cve2017-1001000: ERROR: Script execution failed (use -d to debug)
+3000/tcp open  ppp?
+| fingerprint-strings: 
+|   GenericLines, Help, RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Content-Type: text/html; charset=UTF-8
+|     Set-Cookie: i_like_gitea=81c69561069641e3; Path=/; HttpOnly
+|     Set-Cookie: _csrf=0wDthvffsvWDXvRF1HBbsP2vV7Y6MTY0NzU5OTg5Mzk3OTY4MDM3OQ; Path=/; Expires=Sat, 19 Mar 2022 10:38:13 GMT; HttpOnly; SameSite=Lax
+|     Set-Cookie: macaron_flash=; Path=/; Max-Age=0; HttpOnly
+|     X-Frame-Options: SAMEORIGIN
+|     Date: Fri, 18 Mar 2022 10:38:13 GMT
+|     <!DOCTYPE html>
+|     <html lang="en-US" class="theme-">
+|     <head data-suburl="">
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <meta http-equiv="x-ua-compatible" content="ie=edge">
+|     <title> Catch Repositories </title>
+|     <link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiQ2F0Y2ggUmVwb3NpdG9yaWVzIiwic2hvcnRfbmFtZSI6IkNhdGNoIFJlcG9zaXRvcmllcyIsInN0YXJ0X3VybCI6Imh0dHA6Ly9naXRlYS5jYXRjaC5odGI6MzAwMC8iLCJpY29ucyI6W3sic3JjIjoiaHR0cDovL2dpdGVhLmNhdGNoLmh0Yjoz
+|   HTTPOptions: 
+|     HTTP/1.0 405 Method Not Allowed
+|     Set-Cookie: i_like_gitea=769c1ea7a37765bb; Path=/; HttpOnly
+|     Set-Cookie: _csrf=aR6NwGXQWqIzz-XWqZffMh2_zz86MTY0NzU5OTg5OTQyMjc3ODgxNA; Path=/; Expires=Sat, 19 Mar 2022 10:38:19 GMT; HttpOnly; SameSite=Lax
+|     Set-Cookie: macaron_flash=; Path=/; Max-Age=0; HttpOnly
+|     X-Frame-Options: SAMEORIGIN
+|     Date: Fri, 18 Mar 2022 10:38:19 GMT
+|_    Content-Length: 0
+5000/tcp open  upnp?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, RTSPRequest, SMBProgNeg, ZendJavaBridge: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|   GetRequest: 
+|     HTTP/1.1 302 Found
+|     X-Frame-Options: SAMEORIGIN
+|     X-Download-Options: noopen
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     Content-Security-Policy: 
+|     X-Content-Security-Policy: 
+|     X-WebKit-CSP: 
+|     X-UA-Compatible: IE=Edge,chrome=1
+|     Location: /login
+|     Vary: Accept, Accept-Encoding
+|     Content-Type: text/plain; charset=utf-8
+|     Content-Length: 28
+|     Set-Cookie: connect.sid=s%3Ac1P5TtfFjovZigJMN8n5ihQuDHtSsrZO.eu8cvDYjRI5u8VKX%2BVYODkqhohWrKBN1BoK%2B7bVxIAE; Path=/; HttpOnly
+|     Date: Fri, 18 Mar 2022 10:38:18 GMT
+|     Connection: close
+|     Found. Redirecting to /login
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     X-Frame-Options: SAMEORIGIN
+|     X-Download-Options: noopen
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     Content-Security-Policy: 
+|     X-Content-Security-Policy: 
+|     X-WebKit-CSP: 
+|     X-UA-Compatible: IE=Edge,chrome=1
+|     Allow: GET,HEAD
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 8
+|     ETag: W/"8-ZRAf8oNBS3Bjb/SU2GYZCmbtmXg"
+|     Set-Cookie: connect.sid=s%3AxTRnnQBc2v_NEx82thNH5Gqd4PT4svKh.YwVr14s1wHK%2FOjOKBBRf%2BvjOG4jmTi6O631R2CI6B48; Path=/; HttpOnly
+|     Vary: Accept-Encoding
+|     Date: Fri, 18 Mar 2022 10:38:19 GMT
+|     Connection: close
+|_    GET,HEAD
+8000/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+| http-enum: 
+|   /robots.txt: Robots file
+|_  /img/: Potentially interesting directory w/ listing on 'apache/2.4.29 (ubuntu)'
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| vulners: 
+|   cpe:/a:apache:http_server:2.4.29: 
+|     	CVE-2021-44790	7.5	https://vulners.com/cve/CVE-2021-44790
+|     	CVE-2021-39275	7.5	https://vulners.com/cve/CVE-2021-39275
+|     	CVE-2021-26691	7.5	https://vulners.com/cve/CVE-2021-26691
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2019-0211/	7.2	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2019-0211/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0211/	7.2	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0211/	*EXPLOIT*
+|     	EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB	7.2	https://vulners.com/exploitpack/EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB	*EXPLOIT*
+|     	EDB-ID:46676	7.2	https://vulners.com/exploitdb/EDB-ID:46676	*EXPLOIT*
+|     	CVE-2019-0211	7.2	https://vulners.com/cve/CVE-2019-0211
+|     	1337DAY-ID-32502	7.2	https://vulners.com/zdt/1337DAY-ID-32502	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/SUSE-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/SUSE-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/DEBIAN-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/DEBIAN-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON_LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/AMAZON_LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	MSF:ILITIES/ALPINE-LINUX-CVE-2018-1312/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ALPINE-LINUX-CVE-2018-1312/	*EXPLOIT*
+|     	MSF:ILITIES/ALPINE-LINUX-CVE-2017-15715/	6.8	https://vulners.com/metasploit/MSF:ILITIES/ALPINE-LINUX-CVE-2017-15715/	*EXPLOIT*
+|     	FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	6.8	https://vulners.com/githubexploit/FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	*EXPLOIT*
+|     	CVE-2021-40438	6.8	https://vulners.com/cve/CVE-2021-40438
+|     	CVE-2020-35452	6.8	https://vulners.com/cve/CVE-2020-35452
+|     	CVE-2018-1312	6.8	https://vulners.com/cve/CVE-2018-1312
+|     	CVE-2017-15715	6.8	https://vulners.com/cve/CVE-2017-15715
+|     	4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	6.8	https://vulners.com/githubexploit/4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332	*EXPLOIT*
+|     	CVE-2021-44224	6.4	https://vulners.com/cve/CVE-2021-44224
+|     	CVE-2019-10082	6.4	https://vulners.com/cve/CVE-2019-10082
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2019-0217/	6.0	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2019-0217/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0217/	6.0	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0217/	*EXPLOIT*
+|     	CVE-2019-0217	6.0	https://vulners.com/cve/CVE-2019-0217
+|     	CVE-2020-1927	5.8	https://vulners.com/cve/CVE-2020-1927
+|     	CVE-2019-10098	5.8	https://vulners.com/cve/CVE-2019-10098
+|     	1337DAY-ID-33577	5.8	https://vulners.com/zdt/1337DAY-ID-33577	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1333/	5.0	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1333/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1303/	5.0	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1303/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/FREEBSD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/FREEBSD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2017-15710/	5.0	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2017-15710/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-9490/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	5.0	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-9490/	*EXPLOIT*
+|     	CVE-2021-34798	5.0	https://vulners.com/cve/CVE-2021-34798
+|     	CVE-2021-33193	5.0	https://vulners.com/cve/CVE-2021-33193
+|     	CVE-2021-26690	5.0	https://vulners.com/cve/CVE-2021-26690
+|     	CVE-2020-9490	5.0	https://vulners.com/cve/CVE-2020-9490
+|     	CVE-2020-1934	5.0	https://vulners.com/cve/CVE-2020-1934
+|     	CVE-2019-17567	5.0	https://vulners.com/cve/CVE-2019-17567
+|     	CVE-2019-10081	5.0	https://vulners.com/cve/CVE-2019-10081
+|     	CVE-2019-0220	5.0	https://vulners.com/cve/CVE-2019-0220
+|     	CVE-2019-0196	5.0	https://vulners.com/cve/CVE-2019-0196
+|     	CVE-2018-17199	5.0	https://vulners.com/cve/CVE-2018-17199
+|     	CVE-2018-17189	5.0	https://vulners.com/cve/CVE-2018-17189
+|     	CVE-2018-1333	5.0	https://vulners.com/cve/CVE-2018-1333
+|     	CVE-2018-1303	5.0	https://vulners.com/cve/CVE-2018-1303
+|     	CVE-2017-15710	5.0	https://vulners.com/cve/CVE-2017-15710
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2019-0197/	4.9	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2019-0197/	*EXPLOIT*
+|     	CVE-2019-0197	4.9	https://vulners.com/cve/CVE-2019-0197
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1302/	4.3	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1302/	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1301/	4.3	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1301/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/DEBIAN-CVE-2019-10092/	4.3	https://vulners.com/metasploit/MSF:ILITIES/DEBIAN-CVE-2019-10092/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2020-11993/	*EXPLOIT*
+|     	MSF:ILITIES/APACHE-HTTPD-CVE-2019-10092/	4.3	https://vulners.com/metasploit/MSF:ILITIES/APACHE-HTTPD-CVE-2019-10092/	*EXPLOIT*
+|     	MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	4.3	https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2020-11993/	*EXPLOIT*
+|     	CVE-2020-11993	4.3	https://vulners.com/cve/CVE-2020-11993
+|     	CVE-2019-10092	4.3	https://vulners.com/cve/CVE-2019-10092
+|     	CVE-2018-1302	4.3	https://vulners.com/cve/CVE-2018-1302
+|     	CVE-2018-1301	4.3	https://vulners.com/cve/CVE-2018-1301
+|     	CVE-2018-11763	4.3	https://vulners.com/cve/CVE-2018-11763
+|     	4013EC74-B3C1-5D95-938A-54197A58586D	4.3	https://vulners.com/githubexploit/4013EC74-B3C1-5D95-938A-54197A58586D	*EXPLOIT*
+|     	1337DAY-ID-35422	4.3	https://vulners.com/zdt/1337DAY-ID-35422	*EXPLOIT*
+|     	1337DAY-ID-33575	4.3	https://vulners.com/zdt/1337DAY-ID-33575	*EXPLOIT*
+|     	MSF:ILITIES/UBUNTU-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/REDHAT_LINUX-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/ORACLE-SOLARIS-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/IBM-HTTP_SERVER-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/IBM-HTTP_SERVER-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1283/	*EXPLOIT*
+|     	MSF:ILITIES/CENTOS_LINUX-CVE-2018-1283/	3.5	https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2018-1283/	*EXPLOIT*
+|     	CVE-2018-1283	3.5	https://vulners.com/cve/CVE-2018-1283
+|_    	PACKETSTORM:152441	0.0	https://vulners.com/packetstorm/PACKETSTORM:152441	*EXPLOIT*
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+
+
+
+[0;32m---------------------Recon Recommendations---------------------
+[0m
+[0m
+[0;33mWeb Servers Recon:
+[0m
+nikto -host "http://10.10.11.150:80" | tee "recon/nikto_10.10.11.150_80.txt"
+gobuster dir -w /usr/share/wordlists/dirb/common.txt -t 30 -ekx '.php            [Size: 6163]' -u "http://10.10.11.150:80" -o "recon/gobuster_10.10.11.150_80.txt"
+
+nikto -host "http://10.10.11.150:8000" | tee "recon/nikto_10.10.11.150_8000.txt"
+gobuster dir -w /usr/share/wordlists/dirb/common.txt -t 30 -ekx '.php            [Size: 8906]' -u "http://10.10.11.150:8000" -o "recon/gobuster_10.10.11.150_8000.txt"
+
+
+
+
+[0;33m
+Which commands would you like to run?[0m
+All (Default), gobuster, nikto, Skip <!>
+
+[2K
+Running Default in (30)s: [2K
+Running Default in (29)s: [2K
+Running Default in (28)s: [2K
+Running Default in (27)s: [2K
+Running Default in (26)s: [2K
+Running Default in (25)s: [2K
+Running Default in (24)s: [2K
+Running Default in (23)s: [2K
+Running Default in (22)s: [2K
+Running Default in (21)s: [2K
+Running Default in (20)s: [2K
+Running Default in (19)s: [2K
+Running Default in (18)s: [2K
+Running Default in (17)s: [2K
+Running Default in (16)s: [2K
+Running Default in (15)s: [2K
+Running Default in (14)s: [2K
+Running Default in (13)s: [2K
+Running Default in (12)s: [2K
+Running Default in (11)s: [2K
+Running Default in (10)s: [2K
+Running Default in (9)s: [2K
+Running Default in (8)s: [2K
+Running Default in (7)s: [2K
+Running Default in (6)s: [2K
+Running Default in (5)s: [2K
+Running Default in (4)s: [2K
+Running Default in (3)s: [2K
+Running Default in (2)s: [2K
+Running Default in (1)s: 
+
+
+[0;32m---------------------Running Recon Commands--------------------
+[0m
+[0m
+[0;33mStarting nikto scan
+[0m
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          10.10.11.150
++ Target Hostname:    10.10.11.150
++ Target Port:        80
++ Start Time:         2022-03-18 16:17:35 (GMT0)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.41 (Ubuntu)
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Web Server returns a valid response with junk HTTP methods, this may cause false positives.
++ 7889 requests: 0 error(s) and 4 item(s) reported on remote host
++ End Time:           2022-03-18 16:30:47 (GMT0) (792 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+
+
+      *********************************************************************
+      Portions of the server's headers (Apache/2.4.41) are not in
+      the Nikto 2.1.6 database or are newer than the known string. Would you like
+      to submit this information (*no server specific data*) to CIRT.net
+      for a Nikto update (or you may email to sullo@cirt.net) (y/n)? 
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The site uses SSL and the Strict-Transport-Security HTTP header is not defined.
++ The site uses SSL and Expect-CT header is not present.
+- Sent updated info to cirt.net -- Thank you!
+[0m
+[0;33mFinished nikto scan
+[0m
+[0;33m=========================
+[0m
+[0;33mStarting gobuster scan
+[0m
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.11.150:80
+[+] Method:                  GET
+[+] Threads:                 30
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Extensions:              php            [Size: 6163]
+[+] Expanded:                true
+[+] Timeout:                 10s
+===============================================================
+2022/03/18 16:31:08 Starting gobuster in directory enumeration mode
+===============================================================
+
+http://10.10.11.150:80/.htaccess            (Status: 403) [Size: 277]
+
+http://10.10.11.150:80/.htpasswd            (Status: 403) [Size: 277]
+
+http://10.10.11.150:80/.htaccess.php            [Size: 6163] (Status: 403) [Size: 277]
+
+http://10.10.11.150:80/.htpasswd.php            [Size: 6163] (Status: 403) [Size: 277]
+
+http://10.10.11.150:80/.hta                 (Status: 403) [Size: 277]                 
+
+http://10.10.11.150:80/.hta.php            [Size: 6163] (Status: 403) [Size: 277]     
+
+http://10.10.11.150:80/index.php            (Status: 200) [Size: 6163]                
+
+http://10.10.11.150:80/javascript           (Status: 301) [Size: 317] [--> http://10.10.11.150/javascript/]
+
+http://10.10.11.150:80/server-status        (Status: 403) [Size: 277]                                      
+===============================================================
+2022/03/18 16:31:38 Finished
+===============================================================
+[0m
+[0;33mFinished gobuster scan
+[0m
+[0;33m=========================
+[0m
+[0;33mStarting nikto scan
+[0m
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          10.10.11.150
++ Target Hostname:    10.10.11.150
++ Target Port:        8000
++ Start Time:         2022-03-18 16:31:39 (GMT0)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.29 (Ubuntu)
++ Cookie XSRF-TOKEN created without the httponly flag
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ All CGI directories 'found', use '-C none' to test none
++ OSVDB-630: The web server may reveal its internal or real IP in the Location header via a request to /Autodiscover/ over HTTP/1.0. The value is "172.17.0.5".
++ Apache/2.4.29 appears to be outdated (current is at least Apache/2.4.37). Apache 2.2.34 is the EOL for the 2.x branch.
++ Allowed HTTP Methods: GET, HEAD 
